@@ -3,12 +3,12 @@ package org.tamara.VendasK.Model;
 import java.math.BigDecimal;
 
 public class Vendas {
-    public Vendas(Long operacao, Long cliente, Integer quantidadeIngressos, BigDecimal valorTolal, String status) {
+    public Vendas(Long operacao, Long cliente, Integer quantidadeIngressos, BigDecimal valorTolal) {
         this.operacao = operacao;
         this.cliente = cliente;
         this.quantidadeIngressos = quantidadeIngressos;
         this.valorTolal = valorTolal;
-        this.status = status;
+
     }
 
     private Long operacao;
